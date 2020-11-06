@@ -1,0 +1,15 @@
+{
+    "name": "node-red-pose-estimation-demo",
+    "description": "Pose estimation demo",
+    "version": "0.0.1",
+    "dependencies": {
+        "node-red-contrib-model-asset-exchange": "0.2.8",
+        "node-red-contrib-image-output": "0.6.2"
+    },
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
